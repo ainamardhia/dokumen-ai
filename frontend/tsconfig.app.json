@@ -1,0 +1,16 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json", // Often extends a base config
+  "include": [
+    "src/**/*",         // Include all source files
+    "src/**/*.vue",     // Explicitly include .vue files
+    "src/shims-vue.d.ts" // 👈 **Crucial addition for the TS7016 fix**
+  ],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
