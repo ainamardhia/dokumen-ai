@@ -23,7 +23,7 @@ There are 4 components involved in the development of this app: Frontend, Backen
 
 <video controls src="DokumenAI-video.mp4" title="Title"></video>
 
-_Click the video above to see how the app works._
+_Note: Since the video on how the app works cannot be seen here, please click on the file **DokumenAI-video.mp4**._
 
 ### Component Roles
 
