@@ -21,7 +21,8 @@ There are 4 components involved in the development of this app: Frontend, Backen
 - Prompting is done in the backend, and FastAPI will fetch data from Gemini 2.5 Flash.
 - Users will be able to see the list of documents, filter and search for them, bookmark them, and generate documents' summaries and keypoints.
 
-<video controls src="Vite App - Google Chrome 2025-12-10 01-22-59.mp4" title="Title"></video>
+<video controls src="DokumenAI-video.mp4" title="Title"></video>
+
 _Click the video above to see how the app works._
 
 ### Component Roles
